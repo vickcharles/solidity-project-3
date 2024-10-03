@@ -1,0 +1,16 @@
+{
+  "name": "solidity-project",
+  "version": "1.0.0",
+  "description": "Solidity project",
+  "scripts": {
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "2.2.3",
+    "hardhat": "2.22.2"
+  }
+}
